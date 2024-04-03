@@ -1,0 +1,22 @@
+<H2 class="heading">EMPLOYEE TABLE</H2>
+<table>
+    <thead>
+      <tr>
+        <th>ID </th>
+        <th>NAME</th>
+        <th>POSITION</th>
+        <th>DEPARTMENT</th>
+        <th>SALARY</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let employee of employees">
+        <td>{{ employee.id }}</td>
+        <td>{{ employee.name }}</td>
+        <td>{{ employee.position }}</td>
+        <td>{{ employee.department }}</td>
+        <td>{{ employee.salary}}</td>
+      </tr>
+    </tbody>
+  </table>
+  
